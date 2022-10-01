@@ -78,7 +78,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
                     setState(() {
                       _buttonTitle = _buttonWasTapped
                           ? 'Land Ship'.toUpperCase()
-                          : 'Launch Ship'.toUpperCase();
+                          : 'Launch Rocket'.toUpperCase();
                     });
                   },
                   child: Image.asset(
@@ -102,7 +102,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
                         width: 300.0,
                         child: DecoratedBox(
                           decoration: BoxDecoration(
-                            color: Colors.blue.shade600,
+                            color: Colors.orange.shade400,
                             borderRadius: const BorderRadius.all(
                               Radius.circular(25.0),
                             ),
